@@ -1,4 +1,4 @@
-# Reddit-Bot-for-Sentiment-Analysis
+# Reddit Bot for Sentiment Analysis
 
 A script application in python which evaluates sentiment spikes from the latest posts and their comments that mention target asset tickers in subreddits such as r/wallstreetbets.
 
