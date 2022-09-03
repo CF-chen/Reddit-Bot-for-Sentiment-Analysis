@@ -1,5 +1,7 @@
 # Reddit-Bot-for-Sentiment-Analysis
 
-Script application based on python, which Tracks trending of stocks and cryptocurrencies in subreddit such as r/wallstreetbets, monitor both historical and live sentiment spike for underlying assets, see how many times a ticker has been mentioned,
-Conduct sentiment analysis in Reddit comments on Cryptocurrency, such as Ethereum, to gauge how negative and positive each comment is, buy positive and sell negative (I imported NLTK library where it downloaded VADER dictionary for sentiment reasoning) counting the percent of positive comment versus negative comment.
-Tracking sentiment on Reddit (and trades those stocks), In addition to scanning for how many times each ticker was mentioned in a comment, I also logged the popularity of the comment (giving it something similar to an exponential weight -- the more upvotes, the higher on the comment chain and the more people usually see it) and/or post, and finally checked for the sentiment of each comment/self text post. Then automate the trading based on sentiment analysis
+A script application in python which evaluates sentiment spikes from the latest posts and their comments that mention target asset tickers in subreddits such as r/wallstreetbets.
+
+Sentiment scores were calculated in terms of both polarity and intensity of the posts and comments sentiment, and the scores were normalized between -1 and +1, representing the most extreme negative and the most extreme positive, respectively.
+
+Plotted results in pie charts.
