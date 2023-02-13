@@ -1,6 +1,6 @@
 # Reddit Bot for Sentiment Analysis
 
-Data updated on 27 Dec. 2022
+Data updated on 13 Feb. 2023
 
 A script application in python which evaluates sentiment spikes from the latest posts and their comments that mention target asset in subreddits such as r/wallstreetbets and r/CryptoCurrency.
 
